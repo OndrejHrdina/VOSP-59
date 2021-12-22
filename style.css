@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+  font-family: 'Syne Mono', monospace;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 200ms;
+}
+
+.textBox {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0;
+  background-color: white;
+  border: solid black 3px;
+  box-shadow: 2px 4px black;
+}
+
+.description {
+  text-align: center;
+}
+
+.failCounter {
+  padding: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.taskText {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionLabel {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counters {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+}
+
+.sidePanel {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: .5em;
+}
+
+.grid {
+  background-color: black;
+  display: flex;
+  border: 1.5px solid black;
+}
+
+.img {
+  background-size: cover;
+  background-color:lightgray;
+  transition: 150ms;
+  width: 175px;
+  height: 175px;
+  border: 1.5px solid black;
+}
+
+.sidePanel .img {
+  border: 3px solid black;
+}
+
+.blackedOut {
+  background-color: black;
+  background-image: none !important; 
+}
+
+.img:hover{
+  transform: scale(1.1,1.1);
+}
+
+.blackedOut:hover{
+  background-color: lightgray;
+  transform: scale(0.9,0.9);
+}
+
+button {
+  height: 1.5em;
+  transition: 150ms;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0;
+  background-color: white;
+  border: solid black 3px;
+  box-shadow: 2px 4px black;
+}
+
+button:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+.sequenceBox {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  gap: .5em;
+  margin: 2em;
+}
+
+.sequence {
+  display: flex;
+  flex-direction: column;
+}
+.sequence .textBox {
+  height: 1.5em;
+  width: 1.5em
+}
+
+.OKButton.six{
+  height: 1.5em;
+  transform:translateY(5em);
+}
+
+.sequenceLabel {
+  font-weight: bold;
+  font-size: 30px;
+  height: 5em;
+  width: 1.5em;
+}
+
+.input button {
+  margin: 20px;
+}
+
+img {
+  width: 750px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result input {
+  width:2.5em;
+  height:1.5em;
+}
+
+.taskText label {
+  font-size: 40px;
+}
+
+.green {
+  background-color: rgb(146, 226, 27);
+}
+
+.red {
+  background-color: rgb(248, 60, 60);
+}
