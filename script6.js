@@ -70,5 +70,5 @@ function checkAnswer () {
 
 OKButton.addEventListener("click",()=>{
     alert("Hm. Pěkné.");
-    location.replace('7.html');
+    location.replace('nasiagenti.html');
 });

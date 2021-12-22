@@ -6,11 +6,11 @@ let failCounter = 0;
 OKButton.addEventListener("click",()=>{
   if(textBox.value == 192 && failCounter == 0) {
     alert("Skvělé!");
-    location.replace('8.html');
+    location.replace('jesteneumibackend.html');
   }
   else if(textBox.value == 192) {
     alert("Pár chyb, ale zvládla jste to.");
-    location.replace('8.html');
+    location.replace('jesteneumibackend.html');
   }
   else{
     failCounter++;

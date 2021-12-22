@@ -6,7 +6,7 @@ let failCounter = 0;
 OKButton.addEventListener("click",()=>{
   if(textBox.value == 8918) {
     alert("Vypadá to, že počítat umíte.");
-    location.replace('5.html');
+    location.replace('na.html');
   }
   else{
     failCounter++;

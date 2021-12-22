@@ -6,11 +6,11 @@ let failCounter = 0;
 OKButton.addEventListener("click",()=>{
   if(textBox.value == 1 && failCounter == 0) {
     alert("Bravo, na první pokus!");
-    location.replace('4.html');
+    location.replace('se.html');
   }
   else if(textBox.value == 1) {
     alert("Bravo!");
-    location.replace('4.html');
+    location.replace('se.html');
   }
   else{
     failCounter++;

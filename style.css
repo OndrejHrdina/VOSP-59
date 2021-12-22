@@ -112,7 +112,7 @@ body {
 
 .blackedOut:hover{
   background-color: lightgray;
-  transform: scale(0.9,0.9);
+  transform: scale(1,1);
 }
 
 button {
@@ -149,8 +149,14 @@ button:active {
 }
 
 .OKButton.six{
+  transition: 0ms;
   height: 1.5em;
   transform:translateY(5em);
+}
+
+.OKButton.six:active{
+  transition: 0ms;
+  transform:translateY(0);
 }
 
 .sequenceLabel {
@@ -182,6 +188,11 @@ img {
 
 .taskText label {
   font-size: 40px;
+}
+
+.revealed {
+  border-color: rgb(146, 226, 27);
+  border-width: 3px;
 }
 
 .green {
